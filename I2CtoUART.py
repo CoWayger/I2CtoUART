@@ -123,7 +123,7 @@ class SMBus(SC800IM700):
 #Simple usage
 
 In every python file using i2c type on the first line following:
-import UARTtoI2C as smbus
+import I2CtoUART as smbus
 Now you must copy this file to same folder as the file that is using it.
 If it not work, check if device "/dev/ttyUSB0" exists, on Windows use:
 
